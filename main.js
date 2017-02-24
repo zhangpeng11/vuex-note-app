@@ -3,7 +3,7 @@ import store from './vuex/store'
 import App from './components/App.vue'
 
 new Vue({
-  store,
+  store, // 注入到所有子组件
   el: 'body',
-  components: {App}
+  components: { App }
 })

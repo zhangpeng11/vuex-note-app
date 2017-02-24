@@ -1,22 +1,21 @@
 <template>
   <div id="app">
-    <toolbar></toobar>
-    <nodelist></nodelist>
+    <toolbar></toolbar>
+    <notes-list></notes-list>
     <editor></editor>
   </div>
 </template>
 
 <script>
-  import ToolBar from './ToolBar.vue'
-  import NodeList form './NodeList.vue'
-  import Editor from './Editor.vue'
+import Toolbar from './Toolbar.vue'
+import NotesList from './NotesList.vue'
+import Editor from './Editor.vue'
 
-  export default {
-    components: {
-      ToolBar,
-      NodeList,
-      Editor
-    }
+export default {
+  components: {
+    Toolbar,
+    NotesList,
+    Editor
   }
-
+}
 </script>
